@@ -1,0 +1,6 @@
+html{
+    /* the font Raleway comes from the linked stylesheets in our HTML
+    But you still need some fallback fonts, including the basic font type
+    (like sans-serif) */
+    font-family: "Raleway", Calibri, sans-serif;
+}

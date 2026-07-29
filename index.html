@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- these three link tags let us use the google font named "Raleway" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- your stylesheet must come after any font stylesheets -->
+    <link href="styles/styles.css" rel="stylesheet">
     <title>ARC Mockup Plan</title>
 </head>
 <body>
@@ -24,13 +30,53 @@
 
         <header>
             <div class="limit">
-                
+                <section>
+                    <article>
+                        <h1>Discover Your ARC</h1>
+                        <p>Placeholder paragraph about discovering ARC and all the cool things</p>
+                    </article>
+                    <div class="cards">
+                        <!-- don't bother with AI - just copy and paste the basic structure
+                         to get the four card divs (takes less time), then replace with
+                         specific content -->
+                        <div class="card">
+                            <img src="" alt="">
+                            <p>Bowling</p>
+                        </div>
+                        <div class="card">
+                            <img src="" alt="">
+                            <p>Rock Climbing</p>
+                        </div>
+                        <div class="card">
+                            <img src="" alt="">
+                            <p>Fitness Centre</p>
+                        </div>
+                        <div class="card">
+                            <img src="" alt="">
+                            <p>Indoor Court</p>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button>Get Started</button>
+                    </div>
+                </section>
+                <section>
+                    <!-- AI is terrible at alt text for images, so don't use it -->
+                    <img src="images/discover.svg" alt="A drawing of a woman reading a book">
+                </section>
+                <section class="scrollbtn">
+                    <p>Scroll</p>
+                    <img src="icons/arrow.svg" alt="a white arrow in a green circle">
+                </section>
             </div>
         </header>
 
         <main>
             <div class="limit">
-                <p>Main content goes here.</p>
+                <!-- the iframe element allows you to embed content from another site
+                 into yours - but you can't style anything inside of the iframe, 
+                 you can only control the iframe width and height -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OR_WTJwNQo8?si=TG58cXLqOlelXUsT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </main>
 
